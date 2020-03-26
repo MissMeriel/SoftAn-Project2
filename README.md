@@ -25,8 +25,9 @@ up.
 # Download and run the Docker from your system.
 $ docker run -it --name Hydrogen_Env ashwinkj/hydrogen_env
 # The above command will put you inside the Docker Container.
-$$ git clone https://git.linux.iastate.edu/HydrogenGroup/Hydrogen /home/Hydrogen/MVICFG
+$$ git clone git@github.com:MissMeriel/SoftAn-Project2.git /home/Hydrogen/MVICFG
 $$ cd /home/Hydrogen/MVICFG
+$$ #write addToMVICFG and deleteFromMVICFG methods
 $$ mkdir BuildNinja
 $$ cmake -B BuildNinja -G Ninja .
 $$ cd BuildNinja
